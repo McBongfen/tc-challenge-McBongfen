@@ -1,6 +1,6 @@
 # tc-challenge-McBongfen
 
-#This project is about Deploying Resources on AWS using IaC, Terraform and then deploying a Jenkins CI/CD pipeline.
+* This project is about Deploying Resources on AWS using IaC, Terraform and then deploying a Jenkins CI/CD pipeline.
 
 ## Infrastructure as Code (terraform)
 
@@ -41,4 +41,12 @@ node ('master'){
     }    
     
 }
+```
+
+# Testing
+
+* Go on the below mentioned url and hit with routes which are mentioned in [tech-challenge-flask-app](https://github.com/uturndata-public/tech-challenge-flask-app)
+
+```
+http://3.143.214.105:8000/
 ```
