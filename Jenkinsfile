@@ -1,34 +1,3 @@
-# tc-challenge-McBongfen
-
-#This project is about Deploying Resources on AWS using IaC, Terraform and then deploying a Jenkins CI/CD pipeline.
-
-## Infrastructure as Code (terraform)
-
-* Install AWSCli and configure access and secret key of AWS.
-```
-aws configure
-```
-
-* Go inside terraform directory and initailize the code
-
-```
-terraform init
-```
-
-* Run below command to build infrastructure
-```
-terraform apply --auto-approve
-```
-* for destroying infrastructure
- ```
- terraform destroy --auto-approve
- ```
-
-## CI/CD
-
-Configure jenkins server and create pipeline with help of below script.
-
-```
 node ('master'){
 
     stage('checkout scm'){
@@ -41,4 +10,3 @@ node ('master'){
     }    
     
 }
-```
